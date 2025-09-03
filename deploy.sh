@@ -1,5 +1,5 @@
 #!/bin/bash
-# we need jsut to run thsi
+# we need jsut to run this it will automatically switch on basis of port 
 # Detect active port from Nginx upstream
 ACTIVE_PORT=$(grep -oP 'server\s+127\.0\.0\.1:\K[0-9]+' /etc/nginx/sites-available/app.conf)
 
