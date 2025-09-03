@@ -17,5 +17,5 @@ COPY . .
 EXPOSE 3000
 
 # Default command
-CMD ["node", "app.js"
+CMD ["node", "app.js"]
 
